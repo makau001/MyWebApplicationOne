@@ -1,0 +1,32 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: deeppink;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #111;
+}
+
+.qwerty{
+    background-color: rgba(73, 48, 13, 0.57);
+    height:20vh;
+    display: flex;
+    justify-content: center;
+}
+.carousel-inner img{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
